@@ -1,0 +1,64 @@
+
+<h2>C I N E P O L I S</h2>
+
+
+<div class="container">
+
+    <H3>--ENTRADAS--</H3>
+            
+    <label for="nombre" class="col-sm-2 col-form-label">NOMBRE: </label>
+    
+    <div class="col-sm-10">
+    <input name="nombre" [(ngModel)]="" type="text" class="form-control">
+    </div>
+
+    <label for="cantidad-compradores" class="col-sm-2 col-form-label">CANTIDAD COMPRADORES: </label>
+    
+    <div class="col-sm-10">
+    <input name="cantidad-compradores" [(ngModel)]="" type="text" class="form-control">
+    </div>
+
+    <label for="tarjeta" class="col-sm-2 col-form-label">¿TIENE TARJETA?: </label>
+    
+    <input [(ngModel)]="" type="radio" name="operacion" value="si" />
+    <button class="">SI</button>
+    <input [(ngModel)]="" type="radio" name="operacion" value="si" />
+    <button class="">NO</button>
+
+    <label for="cantidad-boletos" class="col-sm-2 col-form-label">CANTIDAD DE BOLETOS: </label>
+    
+    <div class="col-sm-10">
+    <input name="cantidad-boletos" [(ngModel)]="" type="text" class="form-control">
+    </div>
+
+</div>
+
+
+
+<div class="container">
+
+    <H3>--SALIDAS--</H3>
+            
+    <label for="pago" class="col-sm-2 col-form-label">TOTAL A PAGAR: </label>
+    <div class="col-6">
+            <h2>RESULTADO: {{resultado}} </h2>
+    </div>
+    
+
+</div>
+
+
+
+<div class="container">
+
+    <H3>--ACCIONES--</H3>
+    <button class="btn btn-primary" (click)="proceder()">PROCEDER</button>
+        <br>
+        <br>
+    <button class="btn btn-danger" (click)="salir()">SALIR</button>
+</div>
+
+
+
+
+
