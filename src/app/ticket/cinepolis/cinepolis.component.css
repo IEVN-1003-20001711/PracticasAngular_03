@@ -1,0 +1,111 @@
+
+#fondo{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-oscuro-detalles-dorados_23-2148415641.jpg?w=996&t=st=1696397749~exp=1696398349~hmac=c126cdd78713388e21e6664d4aaed9c5093a74b5b464668d2cd83846b79971b8");
+    background-size: cover;
+    width: 2100px;
+    height: 1000px;
+    margin-left: -30%;
+}
+
+#fondo-cinepolis{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/16af5933-c8e0-4d5b-8488-45339c5b0252/dg39xhf-0b0ef5f9-6c68-4175-ab73-aa95123d721c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE2YWY1OTMzLWM4ZTAtNGQ1Yi04NDg4LTQ1MzM5YzViMDI1MlwvZGczOXhoZi0wYjBlZjVmOS02YzY4LTQxNzUtYWI3My1hYTk1MTIzZDcyMWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1A3mQEcu1CjQbI3TP-vrcC69AV0O6qXnrXyc6wyzEVQ"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding-top: 70px;
+    margin-left: -180px;
+}
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: aqua;
+    font-family: 'Righteous', sans-serif;
+}
+
+.containerUNO{
+    color: aqua;
+    font-family: 'Righteous', sans-serif;
+    border: 4px solid aqua;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 600px;
+    text-align: center;
+    margin-left: 15cm;
+}
+
+.containerDOS{
+    color: aqua;
+    font-family: 'Righteous', sans-serif;
+    border: 4px solid aqua;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 600px;
+    text-align: center; 
+    margin-left: 30cm;
+    margin-top: -11.25cm;
+}
+
+
+.containerTRES{
+    color: aqua;
+    font-family: 'Righteous', sans-serif;
+    border: 4px solid aqua;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 600px;
+    text-align: center;
+    margin-left: 30cm;
+    margin-top: 3.30cm;
+}
+
+.titulos-cajas{
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    font-family: 'Righteous', sans-serif;
+}
+
+.form-control{
+    margin-left: 40px;
+}
+
+.si-no{
+    width: 50px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+}
+
+.radio{
+    margin: 10px;
+    width: 40px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+}
+
+.btn-primary{
+    margin-left: -6cm;
+    width: 200px;
+    height: 40px;
+    font-family: 'Righteous', sans-serif;
+}
+
+.btn-danger{
+    margin-left: 6cm;
+    width: 200px;
+    height: 40px;
+    margin-top: -2.89cm;
+    font-family: 'Righteous', sans-serif;
+}
+
+.titulos-cajas2{
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+    font-family: 'Righteous', sans-serif;
+}
+
+.total{
+    font-size: 30px;
+    font-family: 'Righteous', sans-serif;
+}
